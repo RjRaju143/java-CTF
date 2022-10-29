@@ -1,0 +1,20 @@
+
+Testing /home/ultron/Desktop/Project-CTF/CVE-2022-42889-text4shell ...
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: src/main/java/com/example/springboot/VulnController.java, line 40 
+   Info: Unsanitized input from an HTTP parameter flows into here, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+
+✔ Test completed
+
+Organization:      rjraju143
+Test type:         Static code analysis
+Project path:      /home/ultron/Desktop/Project-CTF/CVE-2022-42889-text4shell
+
+Summary:
+
+  1 Code issues found
+  1 [High] 
+
+

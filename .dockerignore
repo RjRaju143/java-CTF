@@ -1,0 +1,8 @@
+.gitignore
+.dockerignore
+.classpath
+.project
+.settings
+synk_bug.log
+.git
+.github
