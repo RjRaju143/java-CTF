@@ -1,5 +1,6 @@
 .classpath
-.dccatch
+.dccache
 .project
 .settings
 synk_bug.log
+target
