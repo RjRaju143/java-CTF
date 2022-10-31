@@ -31,11 +31,14 @@ public class VulnController {
 
     @GetMapping("/poc3")
     public String pocURL() {
-        String dns = "${java:version} - ${url:UTF-8:https://nvd.nist.gov/vuln/detail/CVE-2022-42889}";
+        // String dns = "${java:version} - ${url:UTF-8:https://nvd.nist.gov/vuln/detail/CVE-2022-42889}";
+        String dns = "${java:version} - ${url:UTF-8:https://rjraju143.github.io/blog}";
         return interpolate(dns);
     }
 
-    @GetMapping("/message")
+
+
+    @GetMapping("/vuln")
     public String handleScript(@RequestParam(defaultValue = "You are running java.version ${java.version} and os.name = ${os.name}") String text) {
         return interpolate(text);
     }
@@ -54,6 +57,10 @@ public class VulnController {
         System.out.println(out);
         return out;
     }
+    
+
+
+
 }
 
 
